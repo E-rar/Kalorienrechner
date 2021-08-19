@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+*{
+    font-family:Prompt;
+}
+form{
+    margin:7% 40% 0% 40%;
+    background-color: rgba(98, 126, 253, 0.712);
+    border-radius: 10px;
+}
+input,label,h4,h1,table,select{
+    outline: none;
+    margin-left:5%;
+}
+label,h1,h4{
+    color:rgb(255, 255, 255)
+}
+#pal{  
+    width:60%
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+    
+    color: white;
+  }
+  p{
+      font-size:0.7em;
+      margin:5%;
+      padding-bottom:5%;
+  }
+  #activity{
+      font-size:1.2em;
+  }
+  #genre{
+      margin:5% 0;
+  }
+  select{
+      margin:5% 5%;
+  }
+  #button{
+      text-align:right;
+  }
+  #button input {
+      background-color:orange;
+      margin-right:15%;
+      padding:2% 3%;
+      color:white;
+      border-radius:5px;
+  }
+  #button input:hover {
+    background-color:rgb(218, 117, 2);
+    cursor:pointer;
+    color:#000;
+}
